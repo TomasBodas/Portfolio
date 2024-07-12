@@ -1,6 +1,7 @@
 # Portafolio Personal de Tomás Bodas
 
 Este proyecto es un portafolio personal desarrollado para presentar la experiencia y habilidades de Tomás Bodas, un ingeniero en sistemas. El portafolio incluye una portada, una sección "Sobre Mí", una página de proyectos y una página de habilidades.
+https://github.com/TomasBodas/Portfolio/tree/main
 
 
 ## Páginas
@@ -36,7 +37,7 @@ El portafolio está diseñado para ser responsivo y verse bien en dispositivos m
 Para ver el portafolio en tu navegador localmente:
 
 1. Clona este repositorio.
-2. Abre el archivo `index.html` en tu navegador.
+2. Abre el archivo `index.html` en tu navegador (con live server).
 
 ## Tecnologías Utilizadas
 
