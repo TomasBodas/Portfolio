@@ -3,6 +3,8 @@
 Este proyecto es un portafolio personal desarrollado para presentar la experiencia y habilidades de Tomás Bodas, un ingeniero en sistemas. El portafolio incluye una portada, una sección "Sobre Mí", una página de proyectos y una página de habilidades.
 https://github.com/TomasBodas/Portfolio/tree/main
 
+## Figma
+https://www.figma.com/design/7uXHY2UIB4PophjJxLsvMn/Portfolio?node-id=0-1&m=dev&t=8f3YkzgzziFry4wt-1
 
 ## Páginas
 
