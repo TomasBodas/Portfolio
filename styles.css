@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #777b6e;
+    color: #333;
+}
+
+header {
+    background-color: #4a4e42;
+    color: white;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Atomic Age', cursive;
+    color:black;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a.button {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+main {
+    width: 90%;
+    margin: 2em auto;
+}
+
+section {
+    background-color: #999c8f;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+#sobre-mi h2, #proyectos h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 300px;
+    margin-left: 2em;
+    border-radius: 15px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.project {
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #4a4e42;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer .social-links a img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content img {
+        margin: 2em 0 0 0;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 95%;
+        margin: 1em auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 0.5em 0;
+    }
+
+    nav ul li a {
+        padding: 0.5em;
+    }
+
+    #sobre-mi h2, #proyectos h2 {
+        font-size: 48px;
+    }
+
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+}
